@@ -3,7 +3,6 @@ import numpy as np
 from util import accuracy
 from hmm import HMM
 
-# TODO:
 def model_training(train_data, tags):
 	"""
 	Train HMM based on training data
@@ -56,7 +55,6 @@ def model_training(train_data, tags):
 
 
 
-# TODO:
 def sentence_tagging(test_data, model, tags):
 	"""
 	Inputs:
